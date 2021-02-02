@@ -60,8 +60,8 @@ enum Result
 int main()
 {
 	#ifdef _DEBUG 
-		freopen("Logs/InputLog.log", "r", stdin);
-		freopen("Logs/OutputLog.log", "w", stdout);
+		std::freopen("Logs/InputLog.log", "r", stdin);
+		std::freopen("Logs/OutputLog.log", "w", stdout);
 	#endif
 
 	return SUCCESS;
